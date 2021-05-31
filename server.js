@@ -3,7 +3,7 @@ const port = 5959;
 const app = express();
 
 app.get("/", (req, res) => {
-  res.status(200).send("Deploy successful! 😘");
+  res.status(200).send("Deploy is working! 😄");
 });
 
 app.listen(port, () => {
