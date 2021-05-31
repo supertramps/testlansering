@@ -8,10 +8,11 @@
   "deploy": {
     "production": {
       "user": "root",
+      "key": "Users/alexa/.ssh/id_ed25519.pub",
       "host": ["188.166.75.251"],
       "ref": "origin/master",
       "repo": "https://github.com/supertramps/testlansering.git",
-      "path": "/projekt",
+      "path": "~/projekt/lansering",
       "post-deploy": "npm install"
     }
   }
