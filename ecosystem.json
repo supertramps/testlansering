@@ -7,7 +7,7 @@
   ],
   "deploy": {
     "production": {
-      "user": "ubuntu",
+      "user": "root",
       "host": ["188.166.75.251"],
       "ref": "origin/master",
       "repo": "https://github.com/supertramps/testlansering.git",
