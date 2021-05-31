@@ -12,7 +12,7 @@
       "ref": "origin/master",
       "repo": "https://github.com/supertramps/testlansering.git",
       "path": "~/projekt/testlanseringDeploy",
-      "post-deploy": "npm install"
+      "post-deploy": "npm install, npm start"
     }
   }
 }
