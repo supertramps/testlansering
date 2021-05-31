@@ -11,7 +11,7 @@
       "host": ["188.166.75.251"],
       "ref": "origin/master",
       "repo": "https://github.com/supertramps/testlansering.git",
-      "path": "~/projekt/lansering",
+      "path": "~/projekt/testlanseringDeploy",
       "post-deploy": "npm install"
     }
   }
